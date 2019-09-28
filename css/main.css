@@ -1,5 +1,6 @@
 body {
     font-family: Montserrat, serif;
+    font-size: 16px;
 }
 
 /* Bootstrap alterações */
@@ -11,6 +12,28 @@ body {
     border: 2px solid #DDAE01;
     text-transform: uppercase;
 }
+
+.btn-secondary {
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    border-radius: 34px;
+    padding: 16px 30px;
+    color: #585858;
+    border: 2px solid #EBEBEB;
+}
+
+.btn-warning:active {
+    background-color: #127681;
+}
+
+.btn-danger {
+    background-color: none;
+}
+
+/* .btn-warning:visited {
+    background-color: #127681;
+} */
 
 .navbar-nav {
     align-items: center;
@@ -57,7 +80,6 @@ body {
 
 .susto {
     margin: 80px auto;
-    height: 100vh;
 }
 
 .sustentabilidade {
@@ -114,4 +136,67 @@ body {
     margin: 0 auto;
 }
 
+/* Calculadora */
 
+.custom-container {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 60px 0;
+    border-radius: 30px;
+    background-color: #FAFAFA;
+}
+
+.titulo-sessao h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #003B88;
+}
+
+.titulo-sessao p {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.passos {
+    margin: 50px 0 30px 0;
+}
+
+.passo {
+    display: flex;
+    align-items: center;
+}
+
+.passo span {
+    margin-right: 10px;
+}
+
+.icon-active {
+    background-color: #003B88;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.icon-non-active {
+    background-color: white;
+    border: 1px solid #003B88;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.passo-progress {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.passo-rest {
+    display: flex;
+    justify-content: space-around;
+}
+
+.opt {
+    padding: 30px 0;
+}
