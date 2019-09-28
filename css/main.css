@@ -1,0 +1,117 @@
+body {
+    font-family: Montserrat, serif;
+}
+
+/* Bootstrap alterações */
+
+.btn-warning {
+    border-radius: 34px;
+    padding: 14px 34px;
+    color: #003B88;
+    border: 2px solid #DDAE01;
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-item {
+    color: white !important;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-deck { 
+    margin: 100px 0;
+}
+
+/* Padroes */
+
+
+
+/* CSS Pessoal */
+
+.start-bg {
+    background: url("../assets/img/bg-painel.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.padding-slide {
+    padding: 170px 0;
+}
+
+.conteudo-slide {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 65px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+
+/* Sustentabilidade */
+
+.susto {
+    margin: 80px auto;
+    height: 100vh;
+}
+
+.sustentabilidade {
+    margin: 80px 0;
+}
+
+.texto-sustenta {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.magenta {
+    color: #FF3171;
+}
+
+.amarelo {
+    color: #F7C200;
+}
+
+.verde {
+    color: #127681;
+}
+
+.marrom {
+    color: #B5B28D;
+}
+
+/* .marrom, .verde, .amarelo, .magenta:hover {
+    color: white;
+} */
+
+.card-susto {
+    padding: 70px 0 30px 30px;
+    font-weight: bold;
+    border: 1px solid  #EBEBEB;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.card-susto:hover {
+    background-color: currentColor;
+}
+
+.card-susto::after {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: currentColor;
+}
+
+.setona {
+    margin: 0 auto;
+}
+
+
